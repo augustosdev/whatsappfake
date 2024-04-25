@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #0c1317;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container {
+    width: calc(100% - 1cm); 
+    height: calc(100% - 1cm); 
+    overflow: auto; /* Añade scroll si el contenido es más largo que la pantalla */
+    background-color: #222e35; 
+    display: flex;
+}
+
+.column {
+    padding: 10px; /* Ajusta el espaciado interior según sea necesario */
+}
+
+.contactos {
+    flex: 5;
+}
+
+.chat {
+    flex: 12;
+    border-left: 1px solid #2b373f;
+}
