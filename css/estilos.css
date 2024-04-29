@@ -20,7 +20,7 @@ body {
 }
 
 .column {
-    padding: 10px; /* Ajusta el espaciado interior según sea necesario */
+    padding: 0px; /* Ajusta el espaciado interior según sea necesario */
 }
 
 .contactos {
@@ -31,3 +31,44 @@ body {
     flex: 12;
     border-left: 1px solid #2b373f;
 }
+
+header {
+    background-color: #202c33;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a img {
+    width: 20px; /* Ajusta el tamaño de los iconos según sea necesario */
+    height: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
