@@ -76,5 +76,57 @@ header {
     text-decoration: none;
 }
 
+.search {
+    background-color: #111b21;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
 
+.search input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0;
+    background-color: #202c33;
+    color: #fff;
+}
 
+.filter {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.filter img {
+    width: 30px; 
+    height: 30px; 
+    object-fit: contain;
+}
+
+.lupa {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.lupa img {
+    width: 15px; 
+    height: 16px; 
+    object-fit: contain;
+    border-radius: 5px;
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0;
+    background-color: #202c33;
+    padding: 8px;
+}
